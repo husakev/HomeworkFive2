@@ -31,4 +31,8 @@ public abstract class Mp3PlayerMain {
     }
 
     public abstract void playSong() throws InterruptedException;
+
+    public static void main(String[] args) throws InterruptedException {
+
+    }
 }

@@ -12,8 +12,8 @@ public class Player1 extends Mp3PlayerMain {
         super(price);
     }
 
-    public static void main(String... args) {
-
+    public static void main(String... args) { //void main прописал во всех класах чтоб
+                                              //удобней проверять было
         new Player1(10).playSong();
     }
 
